@@ -20,6 +20,21 @@ export function SignupForm(props) {
         <Input type="email" placeholder="Email" />
         <Input type="password" placeholder="Password" />
         <Input type="password" placeholder="Confirm Password" />
+        <Input type="password" placeholder="Disease" />
+        <Input type="password" placeholder="Address" />
+        <Input type="password" placeholder="Mobile Number" />
+    
+  <div class="dropdown-menu" aria-labelledby="Blood Group">
+    <a class="dropdown-item" href="#">A+</a>
+    <a class="dropdown-item" href="#">A-</a>
+    <a class="dropdown-item" href="#">B+</a>
+    <a class="dropdown-item" href="#">B-</a>
+    <a class="dropdown-item" href="#">O+</a>
+    <a class="dropdown-item" href="#">O-</a>
+    <a class="dropdown-item" href="#">AB+</a>
+    <a class="dropdown-item" href="#">AB-</a>
+  </div>    
+
       </FormContainer>
       <Marginer direction="vertical" margin={10} />
       <SubmitButton type="submit">Signup</SubmitButton>
